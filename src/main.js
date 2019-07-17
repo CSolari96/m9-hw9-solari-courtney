@@ -24,3 +24,6 @@ const vanillaIceCream = new IceCream("Ice Cream", 340, "Vanilla", 3);
 
 // Log vanillaIceCream object
 console.log(vanillaIceCream);
+
+// Call includeSpoon() method on vanillaIceCream
+vanillaIceCream.includeSpoon();
