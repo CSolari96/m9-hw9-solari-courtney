@@ -21,3 +21,6 @@ class IceCream extends Desserts {
 
 // Create new instance of IceCream
 const vanillaIceCream = new IceCream("Ice Cream", 340, "Vanilla", 3);
+
+// Log vanillaIceCream object
+console.log(vanillaIceCream);
