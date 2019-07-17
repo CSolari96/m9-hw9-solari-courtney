@@ -6,6 +6,7 @@ class Desserts {
 	}
 }
 
+// Subclass IceCream that extends Desserts
 class IceCream extends Desserts {
 	constructor(type, calories, flavor, scoops) {
 		super(type, calories);
@@ -17,3 +18,6 @@ class IceCream extends Desserts {
 		console.log("Here is your spoon!");
 	}
 }
+
+// Create new instance of IceCream
+const vanillaIceCream = new IceCream("Ice Cream", 340, "Vanilla", 3);
